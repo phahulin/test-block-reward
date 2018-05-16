@@ -1,7 +1,6 @@
 const fs = require('fs');
 const Web3 = require('web3');
 const interval = require('interval-promise');
-const json2yaml = require('json2yaml');
 
 const BLOCK_TIME = 5000;
 const REWARD_CONTRACT = '0xf845799e5577fcd47374b4375abff380dac74251';

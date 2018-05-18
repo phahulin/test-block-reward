@@ -27,9 +27,15 @@ true
 true
 ```
 you should see 1/25 peers appear in each log
+
 6. start script to track balances
 ```
 node catch-all.js
+```
+
+7. to reset the network and remove chain files, run
+```
+./clear-all.sh
 ```
 
 ## Expected result
